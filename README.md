@@ -21,7 +21,7 @@
 <p>To run the script, execute the following command:</p>
 
 <pre><code>chmod +x sec-head.sh</code></pre>
-<pre><code>./sec-head.sh</code></pre>
+<pre><code>sudo ./sec-head.sh</code></pre>
 
 <p>The script will then prompt you to enter the URL of the website that you want to check. After entering the URL, the script will check the website's HTTP response headers for the security headers listed above. If any headers are missing, the script will output the missing headers, along with a description of the header and how to implement it, to an HTML file, a TXT file, and a PDF file.</p>
 <h2>Problems Caused by Missing Security Headers</h2>
